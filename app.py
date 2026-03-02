@@ -1,7 +1,7 @@
+import plotly
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-
 # 1. إعدادات الصفحة والتصميم
 st.set_page_config(page_title="Cement Logistics PRO", layout="wide")
 
@@ -157,4 +157,5 @@ if uploaded_file:
     else:
         st.warning(f"لا توجد بيانات متاحة لتاريخ {target_date}")
 else:
+
     st.info("👋 بانتظار رفع ملف الإكسيل للبدء في التحليل...")
